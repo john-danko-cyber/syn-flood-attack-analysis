@@ -66,8 +66,8 @@ Employees can't access the sales webpage to find vacation packages for their cus
 ### [Incident Report](incident-report.md)
 The completed incident report with my answers to every template question.
 
-### [Incident Report (PDF)](incident-report.pdf)
-The completed report in the course template's format.
+### [Incident Report Template (PDF)](incident-report.pdf)
+The blank incident report template provided in the course.
 
 ### [Wireshark TCP/HTTP Log](wireshark-tcp-http-log.xlsx)
 The log provided in the lab. A [CSV version](wireshark-tcp-http-log.csv) is included for easy viewing on GitHub.
