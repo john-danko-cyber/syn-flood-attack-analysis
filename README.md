@@ -1,5 +1,11 @@
 # SYN Flood Attack Analysis
 
+## Summary
+A guided course lab in which I analyzed a provided scenario and Wireshark TCP/HTTP log from a travel agency. The log showed a single IP address (203.0.113.0) flooding the web server with TCP SYN requests, a SYN flood DoS attack that caused connection timeout errors. The write-up covers the findings, how the attack works, its impact, and recommended mitigations.
+
+## My Role
+I analyzed the provided scenario and log data, identified the attack from the packet evidence, and wrote the incident report. The scenario and the Wireshark log were provided by the course lab.
+
 ## Project Overview
 
 This project documents a guided lab from the Google Cybersecurity Certificate. The lab provides a scenario and a Wireshark TCP/HTTP log captured by a security analyst at a travel agency. I reviewed the scenario, analyzed the TCP and HTTP traffic in the log, and wrote an incident report explaining why the company's website was showing connection timeout errors.
@@ -98,3 +104,9 @@ The log provided in the lab. A [CSV version](wireshark-tcp-http-log.csv) is incl
 This is a guided lab completed as part of the Google Cybersecurity Certificate. The company, website, and IP addresses are part of a training scenario, not a real production environment.
 
 This project is based on a scenario from the Google Cybersecurity Professional Certificate (Coursera). The write-up and analysis are my own.
+
+## Evidence
+- [Incident Report](incident-report.md)
+- [Incident Report Template (PDF)](incident-report.pdf)
+- [Wireshark TCP/HTTP Log (XLSX)](wireshark-tcp-http-log.xlsx)
+- [Wireshark TCP/HTTP Log (CSV)](wireshark-tcp-http-log.csv)
